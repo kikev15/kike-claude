@@ -1,7 +1,7 @@
 {
   "name": "kike-claude",
   "owner": { "name": "Kike Vera" },
-  "metadata": { "description": "Chief of staff, agentes y skills del equipo de Kike." },
+  "metadata": { "description": "Chief of staff para Claude Code sobre tu vault de Obsidian, más agentes de código." },
   "plugins": [
     { "name": "chief-of-staff", "source": "./plugins/chief-of-staff", "description": "Chief of staff sobre tu vault: onboarding, brief diario, reuniones y revisión semanal." },
     { "name": "kike-agents", "source": "./plugins/kike-agents", "description": "Agentes de código: architect, explorer, implementer y verifier." }

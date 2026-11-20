@@ -1,6 +1,6 @@
 # kike-claude
 
-Marketplace privado de Claude Code para el equipo y los socios de Kike. Trae un chief of staff que trabaja sobre tu propio vault de Obsidian y tus propias herramientas.
+Marketplace público de Claude Code. Trae un chief of staff que trabaja sobre tu propio vault de Obsidian y tus propias herramientas. Cualquiera puede instalarlo y usarlo.
 
 ## Qué incluye
 
@@ -22,10 +22,7 @@ Skills del chief of staff y cómo pedirlos:
 
 1. **Claude Code**, en la app de escritorio de Claude (pestaña Code) o en la terminal.
 2. **Obsidian** (gratis, obsidian.md). Es donde viven tus notas. Claude escribe archivos Markdown directo en la carpeta del vault, así que no necesitas ningún plugin de Obsidian. Si no quieres usar Obsidian, una carpeta normal también funciona.
-3. **Acceso a este repo.** Pídele a Kike que te invite en GitHub. Luego inicia sesión en tu terminal:
-   ```bash
-   gh auth login
-   ```
+3. **Git** instalado (viene en Mac).
 
 ## Instalación
 
@@ -46,7 +43,7 @@ Después abre Claude Code y escribe: **"Configúrame el chief of staff"**.
 
 ## Conectores
 
-Cada persona conecta sus propias cuentas. Nada se comparte con Kike.
+Cada persona conecta sus propias cuentas. Nada se comparte con el autor ni con nadie más.
 Conéctalos en claude.ai > Settings > Connectors:
 
 - Gmail o Outlook
@@ -79,3 +76,7 @@ Conéctalos en claude.ai > Settings > Connectors:
 ```bash
 claude plugin marketplace update kike-claude
 ```
+
+## Licencia
+
+MIT. Úsalo, cámbialo y compártelo.
